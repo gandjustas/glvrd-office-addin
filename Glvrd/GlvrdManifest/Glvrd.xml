@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>b119a955-6b0c-428e-b8ff-13b872c28766</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>vnextsoft</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Главред" />
+  <Description DefaultValue="Помогает очистить текст от словесного мусора, проверяет на соответствие информационному стилю."/>
+  <SupportUrl DefaultValue="https://glvrd.ru/" />
+  <Hosts>
+    <Host Name="Presentation" />
+    <Host Name="Document" />
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="~remoteAppUrl/App/Home/Home.html" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>

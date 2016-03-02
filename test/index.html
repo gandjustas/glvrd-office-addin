@@ -1,0 +1,49 @@
+<html>
+<body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://api.glvrd.ru/v1/glvrd.js"></script>
+
+<textarea id="text">Например, пример.</textarea>
+
+<script>
+function InitButtons() {
+    $('#text').after(
+        '<br />',
+        '<button id="proofread">Проверить</button>',
+        '<button id="abort" disabled>Отменить проверку</button>'
+    );
+
+    $('button#proofread').click(function() {
+        var text = $('textarea#text').val();
+
+        glvrd.proofread(text, function(result){
+            if(result.status == 'ok') {
+                console.log('Score', result.score);
+                console.log('Fragments', result.fragments);
+            } else {
+                alert(result.message);
+            }
+        });
+    })
+
+    $('button#abort').click(function() {
+        glvrd.abortProofreading();
+    })
+}
+
+
+if(!glvrd) {
+    alert('Главред не загружен');
+} else {
+    glvrd.getStatus(function(result) {
+        if(result.status == 'ok') {
+            InitButtons();
+        } else {
+            alert('Главред выключен: ' + result.message);
+        }
+    })
+}
+</script>
+
+</body>
+</html>

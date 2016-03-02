@@ -1,0 +1,27 @@
+﻿/* Page-specific styling */
+
+.score {
+    font-size: 2em;
+
+}
+
+#score {
+    padding-bottom:15px;
+}
+
+.hint{
+    padding-bottom:15px;
+}
+
+.hint-title {
+    font-weight:bold;
+}
+
+.stop-word {
+        color: #dA570f;
+}
+
+.hint-desc {
+    font-style:italic;
+}
+
