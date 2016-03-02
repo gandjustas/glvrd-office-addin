@@ -4,11 +4,16 @@
   <Id>b119a955-6b0c-428e-b8ff-13b872c28766</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>vnextsoft</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
+  <DefaultLocale>ru-RU</DefaultLocale>
   <DisplayName DefaultValue="Главред" />
   <Description DefaultValue="Помогает очистить текст от словесного мусора, проверяет на соответствие информационному стилю."/>
   <IconUrl DefaultValue="~remoteAppUrl/Images/favicon-32x32.png" />
+  <HighResolutionIconUrl DefaultValue="~remoteAppUrl/Images/favicon-64x64.png" />
   <SupportUrl DefaultValue="https://glvrd.ru/" />
+  <AppDomains>
+    <AppDomain>https://code.jquery.com</AppDomain>
+    <AppDomain>https://api.glvrd.ru</AppDomain>
+  </AppDomains>
   <Hosts>
     <Host Name="Presentation" />
     <Host Name="Document" />

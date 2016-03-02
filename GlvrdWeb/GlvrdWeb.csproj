@@ -88,6 +88,7 @@
     <Content Include="Images\Close.png" />
     <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\favicon-32x32.png" />
+    <Content Include="Images\favicon-64x64.png" />
     <Content Include="Images\pipe-1.png" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
