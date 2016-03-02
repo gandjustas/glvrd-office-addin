@@ -7,6 +7,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Главред" />
   <Description DefaultValue="Помогает очистить текст от словесного мусора, проверяет на соответствие информационному стилю."/>
+  <IconUrl DefaultValue="~remoteAppUrl/Images/favicon-32x32.png" />
   <SupportUrl DefaultValue="https://glvrd.ru/" />
   <Hosts>
     <Host Name="Presentation" />

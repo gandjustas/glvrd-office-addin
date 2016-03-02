@@ -76,6 +76,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\glvrd - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\glvrd - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="App\App.css" />
     <Content Include="App\App.js" />
@@ -84,6 +86,9 @@
     <Content Include="App\Home\Home.js" />
     <Content Include="Content\Office.css" />
     <Content Include="Images\Close.png" />
+    <Content Include="Images\favicon-16x16.png" />
+    <Content Include="Images\favicon-32x32.png" />
+    <Content Include="Images\pipe-1.png" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
